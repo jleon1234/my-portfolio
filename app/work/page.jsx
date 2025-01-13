@@ -213,7 +213,7 @@ const Work = () => {
 										key={index}
 										className='w-full'
 									>
-										<div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20' >
+										<div className='h-[410px] relative group flex justify-center items-center bg-pink-50/20' >
 
 											{/* {overlay } */}
 											<div className='abosulte top-0 bottom-0 w-fulll h-full bg-black/10 z-10' >
@@ -225,7 +225,7 @@ const Work = () => {
 												<Image
 													src={project.image}
 													fill
-													className='object-cover'
+													className=''
 													alt=""
 												/>
 											</div>
