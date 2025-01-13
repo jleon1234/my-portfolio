@@ -9,7 +9,7 @@ const nextConfig = {
     assetPrefix: isGithubPages ? `/${repoName}/` : '',
     // output: "export",
     distDir: "dist",
-    iamges: {
+    images: {
         unoptimized: true,
         remotePatterns: [
             {
