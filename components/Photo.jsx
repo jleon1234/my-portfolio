@@ -17,7 +17,7 @@ const Photo = () => {
 					animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeInOut" } }}
 					className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute' >
 					<Image
-						src="https://jleon1234.github.io/my-portfolio/assets/photo-new.png"
+						src="/assets/photo-new.png"
 						priority
 						quality={100}
 						fill

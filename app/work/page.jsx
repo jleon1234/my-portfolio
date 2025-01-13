@@ -28,7 +28,7 @@ const projects = [
 			{ name: "Laravel" },
 			{ name: "Javascript" },
 		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/mas-titulares.png",
+		image: "/assets/work/mas-titulares.png",
 		live: "https://mastitulares.conviertemas.com/",
 		github: "",
 		company: {
@@ -47,7 +47,7 @@ const projects = [
 			{ name: "MongoDB" },
 			{ name: "Open Ai" },
 		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/copy-assistant.png",
+		image: "/assets/work/copy-assistant.png",
 		live: "https://app.copyassistant.ai/login",
 		github: "",
 		company: {
@@ -66,7 +66,7 @@ const projects = [
 			{ name: "Mongo DB" },
 			{ name: "Open Ai" },
 		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/vilma-ai.png",
+		image: "/assets/work/vilma-ai.png",
 		live: "https://app.vilma.ai/login",
 		github: "",
 		company: {
@@ -83,7 +83,7 @@ const projects = [
 			{ name: "React.js" },
 			{ name: "Firebase" },
 		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/spacegram.png",
+		image: "/assets/work/spacegram.png",
 		live: "https://app.vilma.ai/login",
 		github: "",
 		company: {
