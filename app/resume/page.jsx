@@ -175,7 +175,7 @@ const Resume = () => {
 					>
 						<TabsTrigger value="experience" >Experiencia</TabsTrigger>
 						<TabsTrigger value="education" >Educación</TabsTrigger>
-						<TabsTrigger value="skills" >Hablilidades</TabsTrigger>
+						<TabsTrigger value="skills" >Habilidades</TabsTrigger>
 						<TabsTrigger value="about" >Sobre mi</TabsTrigger>
 					</TabsList>
 
