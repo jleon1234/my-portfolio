@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_34e5bb._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_ddd4c4._.js", {
 
 "[project]/components/ui/tooltip.jsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -115,6 +115,358 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
+"[project]/public/assets/assets.ts [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "assets": (()=>assets),
+    "infoList": (()=>infoList),
+    "serviceData": (()=>serviceData),
+    "toolsData": (()=>toolsData),
+    "workData": (()=>workData)
+});
+(()=>{
+    const e = new Error("Cannot find module './user-image.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './code-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './code-icon-dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './edu-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './edu-icon-dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './project-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './project-icon-dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './vscode.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './firebase.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './figma.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './git.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './mongodb.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './right-arrow-white.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './logo.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './logo_dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './mail_icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './mail_icon_dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './profile-img.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './download-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './hand-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './header-bg-color.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './moon_icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './sun_icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './arrow-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './arrow-icon-dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './menu-black.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './menu-white.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './close-black.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './close-white.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './web-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './mobile-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './ui-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './graphics-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './right-arrow.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './send-icon.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './right-arrow-bold.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './right-arrow-bold-dark.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const assets = {
+    user_image,
+    code_icon,
+    code_icon_dark,
+    edu_icon,
+    edu_icon_dark,
+    project_icon,
+    project_icon_dark,
+    vscode,
+    firebase,
+    figma,
+    git,
+    mongodb,
+    right_arrow_white,
+    logo,
+    logo_dark,
+    mail_icon,
+    mail_icon_dark,
+    profile_img,
+    download_icon,
+    hand_icon,
+    header_bg_color,
+    moon_icon,
+    sun_icon,
+    arrow_icon,
+    arrow_icon_dark,
+    menu_black,
+    menu_white,
+    close_black,
+    close_white,
+    web_icon,
+    mobile_icon,
+    ui_icon,
+    graphics_icon,
+    right_arrow,
+    send_icon,
+    right_arrow_bold,
+    right_arrow_bold_dark
+};
+const workData = [
+    {
+        title: 'Frontend project',
+        description: 'Web Design',
+        bgImage: '/work-1.png'
+    },
+    {
+        title: 'Geo based app',
+        description: 'Mobile App',
+        bgImage: '/work-2.png'
+    },
+    {
+        title: 'Photography site',
+        description: 'Web Design',
+        bgImage: '/work-3.png'
+    },
+    {
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png'
+    }
+];
+const serviceData = [
+    {
+        icon: assets.web_icon,
+        title: 'Web design',
+        description: 'Web development is the process of building, programming...',
+        link: ''
+    },
+    {
+        icon: assets.mobile_icon,
+        title: 'Mobile app',
+        description: 'Mobile app development involves creating software for mobile devices...',
+        link: ''
+    },
+    {
+        icon: assets.ui_icon,
+        title: 'UI/UX design',
+        description: 'UI/UX design focuses on creating a seamless user experience...',
+        link: ''
+    },
+    {
+        icon: assets.graphics_icon,
+        title: 'Graphics design',
+        description: 'Creative design solutions to enhance visual communication...',
+        link: ''
+    }
+];
+const infoList = [
+    {
+        icon: assets.code_icon,
+        iconDark: assets.code_icon_dark,
+        title: 'Languages',
+        description: 'HTML, CSS, JavaScript React Js, Next Js'
+    },
+    {
+        icon: assets.edu_icon,
+        iconDark: assets.edu_icon_dark,
+        title: 'Education',
+        description: 'B.Tech in Computer Science'
+    },
+    {
+        icon: assets.project_icon,
+        iconDark: assets.project_icon_dark,
+        title: 'Projects',
+        description: 'Built more than 5 projects'
+    }
+];
+const toolsData = [
+    assets.vscode,
+    assets.firebase,
+    assets.mongodb,
+    assets.figma,
+    assets.git
+];
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
 "[project]/app/work/page.jsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -130,6 +482,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WorkSliderBtns$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/WorkSliderBtns.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$assets$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/public/assets/assets.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/bs/index.mjs [app-client] (ecmascript)");
 ;
@@ -144,104 +497,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-const projects = [
-    {
-        num: "01",
-        category: "fullstack",
-        title: "Vilma Ai",
-        description: "Vilma Ai: es tu plataforma en Inteligencia Artificial que reúne expertos consultores en todas las áreas claves del marketing digital para proporcionar respuestas inmediatas y contextualizadas a tus consultas.",
-        stack: [
-            {
-                name: "Reac.js"
-            },
-            {
-                name: "Nest.Js"
-            },
-            {
-                name: "Mongo DB"
-            },
-            {
-                name: "Open Ai"
-            }
-        ],
-        image: "https://jleon1234.github.io/my-portfolio/assets/work/vilma-ai-app.png",
-        live: "https://app.vilma.ai/login",
-        github: "",
-        company: {
-            name: "Convierte Mas",
-            url: "https://conviertemas.com/"
-        }
-    },
-    {
-        num: "02",
-        category: "fullstack",
-        title: "Coppy Assistant",
-        description: "Coppy Assistant: Redacta en minutos post persuasivos con el poder de la Inteligencia Artificial",
-        stack: [
-            {
-                name: "React.js"
-            },
-            {
-                name: "Nest.js"
-            },
-            {
-                name: "MongoDB"
-            },
-            {
-                name: "Open Ai"
-            }
-        ],
-        image: "https://jleon1234.github.io/my-portfolio/assets/work/copy-assistant-app.png",
-        live: "https://app.copyassistant.ai/login",
-        github: "",
-        company: {
-            name: "Convierte Mas",
-            url: "https://conviertemas.com/"
-        }
-    },
-    {
-        num: "03",
-        category: "Fullstack",
-        title: "Mas titulares",
-        description: "Mas Titulares: Genera ideas de contenido a partir de una palabras clave que definas",
-        stack: [
-            {
-                name: "Laravel"
-            },
-            {
-                name: "Javascript"
-            }
-        ],
-        image: "https://jleon1234.github.io/my-portfolio/assets/work/mas-titulares.png",
-        live: "https://mastitulares.conviertemas.com/",
-        github: "",
-        company: {
-            name: "Convierte Mas",
-            url: "https://conviertemas.com/"
-        }
-    },
-    {
-        num: "04",
-        category: "Frontend",
-        title: "Spacegram",
-        description: "Spacegram: Diseña textos para redes sociales, guarda notas con el texto que se usa en publicaciones y los copia en portapapeles con estilo.",
-        stack: [
-            {
-                name: "React.js"
-            },
-            {
-                name: "Firebase"
-            }
-        ],
-        image: "https://jleon1234.github.io/my-portfolio/assets/work/spacegram.png",
-        live: "https://app.vilma.ai/login",
-        github: "",
-        company: {
-            name: "Convierte Mas",
-            url: "https://conviertemas.com/"
-        }
-    }
-];
+;
 const Work = ()=>{
     _s();
     const [project, setProject] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(projects[0]);
@@ -279,7 +535,7 @@ const Work = ()=>{
                                     children: project.num
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 120,
+                                    lineNumber: 48,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -290,7 +546,7 @@ const Work = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 125,
+                                    lineNumber: 53,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -298,7 +554,7 @@ const Work = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 130,
+                                    lineNumber: 58,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -312,13 +568,13 @@ const Work = ()=>{
                                             children: project.company.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 133,
+                                            lineNumber: 61,
                                             columnNumber: 45
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 133,
+                                    lineNumber: 61,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -332,20 +588,20 @@ const Work = ()=>{
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 139,
+                                            lineNumber: 67,
                                             columnNumber: 11
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 136,
+                                    lineNumber: 64,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "border border-white/20"
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 152,
+                                    lineNumber: 80,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -363,12 +619,12 @@ const Work = ()=>{
                                                                 className: "text-white text-3xl group-hover:text-accent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 165,
+                                                                lineNumber: 93,
                                                                 columnNumber: 13
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 162,
+                                                            lineNumber: 90,
                                                             columnNumber: 12
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TooltipContent"], {
@@ -376,28 +632,28 @@ const Work = ()=>{
                                                                 children: "Live project"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 168,
+                                                                lineNumber: 96,
                                                                 columnNumber: 13
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 95,
                                                             columnNumber: 12
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 89,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/work/page.jsx",
-                                                lineNumber: 158,
+                                                lineNumber: 86,
                                                 columnNumber: 10
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 85,
                                             columnNumber: 9
                                         }, this),
                                         project.github == !"" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -412,12 +668,12 @@ const Work = ()=>{
                                                                 className: "text-white text-3xl group-hover:text-accent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 185,
+                                                                lineNumber: 113,
                                                                 columnNumber: 14
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 182,
+                                                            lineNumber: 110,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TooltipContent"], {
@@ -425,45 +681,45 @@ const Work = ()=>{
                                                                 children: "Github Repository"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 188,
+                                                                lineNumber: 116,
                                                                 columnNumber: 14
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 187,
+                                                            lineNumber: 115,
                                                             columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 109,
                                                     columnNumber: 12
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/work/page.jsx",
-                                                lineNumber: 178,
+                                                lineNumber: 106,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 177,
+                                            lineNumber: 105,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 155,
+                                    lineNumber: 83,
                                     columnNumber: 8
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/work/page.jsx",
-                            lineNumber: 118,
+                            lineNumber: 46,
                             columnNumber: 7
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.jsx",
-                        lineNumber: 117,
+                        lineNumber: 45,
                         columnNumber: 6
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -484,7 +740,7 @@ const Work = ()=>{
                                                     className: "abosulte top-0 bottom-0 w-fulll h-full bg-black/10 z-10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 148,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -495,23 +751,23 @@ const Work = ()=>{
                                                         alt: ""
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/work/page.jsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 154,
                                                         columnNumber: 13
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 153,
                                                     columnNumber: 12
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 217,
+                                            lineNumber: 145,
                                             columnNumber: 11
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/app/work/page.jsx",
-                                        lineNumber: 213,
+                                        lineNumber: 141,
                                         columnNumber: 10
                                     }, this);
                                 }),
@@ -520,34 +776,34 @@ const Work = ()=>{
                                     btnStyles: "bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/app/work/page.jsx",
-                                    lineNumber: 239,
+                                    lineNumber: 167,
                                     columnNumber: 8
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/work/page.jsx",
-                            lineNumber: 205,
+                            lineNumber: 133,
                             columnNumber: 7
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.jsx",
-                        lineNumber: 204,
+                        lineNumber: 132,
                         columnNumber: 6
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.jsx",
-                lineNumber: 116,
+                lineNumber: 44,
                 columnNumber: 5
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/work/page.jsx",
-            lineNumber: 115,
+            lineNumber: 43,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/work/page.jsx",
-        lineNumber: 110,
+        lineNumber: 38,
         columnNumber: 3
     }, this);
 };
@@ -567,4 +823,4 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 }}),
 }]);
 
-//# sourceMappingURL=_34e5bb._.js.map
+//# sourceMappingURL=_ddd4c4._.js.map

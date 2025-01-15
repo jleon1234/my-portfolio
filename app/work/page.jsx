@@ -18,81 +18,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import WorkSliderBtns from '@/components/WorkSliderBtns'
 
-const projects = [
-	{
-		num: "01",
-		category: "fullstack",
-		title: "Vilma Ai",
-		description: "Vilma Ai: es tu plataforma en Inteligencia Artificial que reúne expertos consultores en todas las áreas claves del marketing digital para proporcionar respuestas inmediatas y contextualizadas a tus consultas.",
-		stack: [
-			{ name: "Reac.js" },
-			{ name: "Nest.Js" },
-			{ name: "Mongo DB" },
-			{ name: "Open Ai" },
-		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/vilma-ai.png",
-		live: "https://app.vilma.ai/login",
-		github: "",
-		company: {
-			name: "Convierte Mas",
-			url: "https://conviertemas.com/"
-		}
-	},
-	{
-		num: "02",
-		category: "fullstack",
-		title: "Coppy Assistant",
-		description: "Coppy Assistant: Redacta en minutos post persuasivos con el poder de la Inteligencia Artificial",
-		stack: [
-			{ name: "React.js" },
-			{ name: "Nest.js" },
-			{ name: "MongoDB" },
-			{ name: "Open Ai" },
-		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/copy-assistant.png",
-		live: "https://app.copyassistant.ai/login",
-		github: "",
-		company: {
-			name: "Convierte Mas",
-			url: "https://conviertemas.com/"
-		}
-	},
-	{
-		num: "03",
-		category: "Fullstack",
-		title: "Mas titulares",
-		description: "Mas Titulares: Genera ideas de contenido a partir de una palabras clave que definas",
-		stack: [
-			{ name: "Laravel" },
-			{ name: "Javascript" },
-		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/mas-titulares.png",
-		live: "https://mastitulares.conviertemas.com/",
-		github: "",
-		company: {
-			name: "Convierte Mas",
-			url: "https://conviertemas.com/"
-		}
-	},
-	
-	{
-		num: "04",
-		category: "Frontend",
-		title: "Spacegram",
-		description: "Spacegram: Diseña textos para redes sociales, guarda notas con el texto que se usa en publicaciones y los copia en portapapeles con estilo.",
-		stack: [
-			{ name: "React.js" },
-			{ name: "Firebase" },
-		],
-		image: "https://jleon1234.github.io/my-portfolio/assets/work/spacegram.png",
-		live: "https://app.vilma.ai/login",
-		github: "",
-		company: {
-			name: "Convierte Mas",
-			url: "https://conviertemas.com/"
-		}
-	},
-]
+
+import { projects } from '@/public/assets/assets'
+
 
 const Work = () => {
 
@@ -214,7 +142,7 @@ const Work = () => {
 										key={index}
 										className='w-full'
 									>
-										<div className='h-[410px] relative group flex justify-center items-center bg-pink-50/20' >
+										<div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20' >
 
 											{/* {overlay } */}
 											<div className='abosulte top-0 bottom-0 w-fulll h-full bg-black/10 z-10' >
@@ -226,7 +154,7 @@ const Work = () => {
 												<Image
 													src={project.image}
 													fill
-													className=''
+													className='object-cover'
 													alt=""
 												/>
 											</div>

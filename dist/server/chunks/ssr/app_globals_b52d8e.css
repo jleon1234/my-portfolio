@@ -627,6 +627,22 @@ body {
   height: 100vh;
 }
 
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[330px\] {
+  height: 330px;
+}
+
+.h-\[310px\] {
+  height: 310px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -955,6 +971,10 @@ body {
 
 .object-contain {
   object-fit: contain;
+}
+
+.object-cover {
+  object-fit: cover;
 }
 
 .p-1 {
@@ -1724,6 +1744,10 @@ body {
 
   .xl\:w-max {
     width: max-content;
+  }
+
+  .xl\:w-\[60\%\] {
+    width: 60%;
   }
 
   .xl\:max-w-none {

@@ -10,7 +10,7 @@
     "static/chunks/node_modules_react-icons_pi_index_mjs_658a28._.js",
     "static/chunks/node_modules_react-icons_bs_index_mjs_0b2b17._.js",
     "static/chunks/node_modules_0dbb3b._.js",
-    "static/chunks/_34e5bb._.js",
+    "static/chunks/_b23450._.js",
     "static/chunks/node_modules_swiper_swiper_d460ee.css"
   ],
   "source": "dynamic"
