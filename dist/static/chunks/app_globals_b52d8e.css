@@ -579,12 +579,12 @@ body {
   height: 400px;
 }
 
-.h-\[410px\] {
-  height: 410px;
-}
-
 .h-\[44px\] {
   height: 44px;
+}
+
+.h-\[460px\] {
+  height: 460px;
 }
 
 .h-\[48px\] {
@@ -625,22 +625,6 @@ body {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
-.h-\[330px\] {
-  height: 330px;
-}
-
-.h-\[310px\] {
-  height: 310px;
-}
-
-.h-\[460px\] {
-  height: 460px;
 }
 
 .max-h-96 {
@@ -1744,10 +1728,6 @@ body {
 
   .xl\:w-max {
     width: max-content;
-  }
-
-  .xl\:w-\[60\%\] {
-    width: 60%;
   }
 
   .xl\:max-w-none {

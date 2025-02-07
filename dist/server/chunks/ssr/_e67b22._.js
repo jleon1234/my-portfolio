@@ -251,6 +251,36 @@ const projects = [
             name: "Convierte Mas",
             url: "https://conviertemas.com/"
         }
+    },
+    {
+        num: "04",
+        category: "FullStack",
+        title: "JuanDev Docs Clone - En Proceso",
+        description: "Clon de Google Docs, que incluye colaboración en tiempo real, comentarios, hilos, un editor avanzado con TipTap, extensiones personalizadas, plantillas, Authentication.",
+        stack: [
+            {
+                name: "Next js 15"
+            },
+            {
+                name: "Shadcd UI"
+            },
+            {
+                name: "Tailwind CSS"
+            },
+            {
+                name: "Clerk Auth"
+            },
+            {
+                name: "Convex DB"
+            }
+        ],
+        image: "http://localhost:3000/assets/work/docs-clone.png",
+        live: "",
+        github: "",
+        company: {
+            name: "Proyecto Personal",
+            url: ""
+        }
     }
 ];
 }}),

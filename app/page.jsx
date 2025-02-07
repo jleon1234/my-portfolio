@@ -18,7 +18,7 @@ const Home = () => {
 						<h1 className="h1 mb-6" >
 							Hola soy <br /> <span className="text-accent" >Juan Pablo</span>
 						</h1>
-						<p className="max-w-[500px] mb-9 text-white/80" >Desarrollador Full Stack especializado en crear aplicaciones web dinámicas y escalables utilizando Node.js, React y Next.js, con pasión por ofrecer soluciones innovadoras y eficientes.</p>
+						<p className="max-w-[500px] mb-9 text-white/80" >Desarrollador Full Stack especializado en crear aplicaciones web dinámicas y escalables utilizando Node.js, React, Next.js, Laravel,  con pasión por ofrecer soluciones innovadoras y eficientes.</p>
 
 						{/* btn and social   */}
 
