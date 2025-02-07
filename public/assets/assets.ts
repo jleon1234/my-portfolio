@@ -89,7 +89,7 @@ export const projects = [
 			{ name: "Clerk Auth" },
 			{ name: "Convex DB" },
 		],
-		image: "https://jleon1234.github.io/assets/work/docs-clone.png",
+		image: "https://jleon1234.github.io/my-portfolio/assets/work/docs-clone.png",
 		live: "",
 		github: "",
 		company: {
