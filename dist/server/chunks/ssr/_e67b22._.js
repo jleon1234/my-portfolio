@@ -274,7 +274,7 @@ const projects = [
                 name: "Convex DB"
             }
         ],
-        image: "http://localhost:3000/assets/work/docs-clone.png",
+        image: "https://jleon1234.github.io/assets/work/docs-clone.png",
         live: "",
         github: "",
         company: {
