@@ -91,7 +91,7 @@ export const projects = [
 		],
 		image: "https://jleon1234.github.io/my-portfolio/assets/work/docs-clone.png",
 		live: "",
-		github: "",
+		github: "https://github.com/jleon1234/docs-clone",
 		company: {
 			name: "Proyecto Personal",
 			url: ""

@@ -302,7 +302,7 @@ const projects = [
         ],
         image: "https://jleon1234.github.io/my-portfolio/assets/work/docs-clone.png",
         live: "",
-        github: "",
+        github: "https://github.com/jleon1234/docs-clone",
         company: {
             name: "Proyecto Personal",
             url: ""
@@ -453,7 +453,7 @@ const Work = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-4 ",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        project.live !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: project.live,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TooltipProvider"], {
                                                 delayDuration: 100,
@@ -465,42 +465,42 @@ const Work = ()=>{
                                                                 className: "text-white text-3xl group-hover:text-accent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 93,
-                                                                columnNumber: 13
+                                                                lineNumber: 95,
+                                                                columnNumber: 15
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 90,
-                                                            columnNumber: 12
+                                                            lineNumber: 92,
+                                                            columnNumber: 14
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TooltipContent"], {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: "Live project"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 96,
-                                                                columnNumber: 13
+                                                                lineNumber: 98,
+                                                                columnNumber: 15
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 95,
-                                                            columnNumber: 12
+                                                            lineNumber: 97,
+                                                            columnNumber: 14
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 89,
-                                                    columnNumber: 11
+                                                    lineNumber: 91,
+                                                    columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/work/page.jsx",
-                                                lineNumber: 86,
-                                                columnNumber: 10
+                                                lineNumber: 88,
+                                                columnNumber: 12
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 85,
-                                            columnNumber: 9
+                                            lineNumber: 87,
+                                            columnNumber: 11
                                         }, this),
                                         project.github == !"" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: project.github,
@@ -514,12 +514,12 @@ const Work = ()=>{
                                                                 className: "text-white text-3xl group-hover:text-accent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 113,
+                                                                lineNumber: 117,
                                                                 columnNumber: 14
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 114,
                                                             columnNumber: 13
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tooltip$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TooltipContent"], {
@@ -527,28 +527,28 @@ const Work = ()=>{
                                                                 children: "Github Repository"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/work/page.jsx",
-                                                                lineNumber: 116,
+                                                                lineNumber: 120,
                                                                 columnNumber: 14
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/work/page.jsx",
-                                                            lineNumber: 115,
+                                                            lineNumber: 119,
                                                             columnNumber: 13
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/work/page.jsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 113,
                                                     columnNumber: 12
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/work/page.jsx",
-                                                lineNumber: 106,
+                                                lineNumber: 110,
                                                 columnNumber: 11
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 109,
                                             columnNumber: 37
                                         }, this)
                                     ]

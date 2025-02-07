@@ -58,7 +58,7 @@ const Work = () => {
 							<p className='text-white/60' >{project.description}</p>
 
 							{/* project description  */}
-							<p className='text-white' >Empresa:  <Link href={project.company.url}  target='_blank' className='text-white/60 ' >{project.company.name}</Link></p>
+							<p className='text-white' >Empresa:  <Link href={project.company.url} target='_blank' className='text-white/60 ' >{project.company.name}</Link></p>
 
 							{/* stack  */}
 							<ul className='flex gap-4' >
@@ -82,22 +82,26 @@ const Work = () => {
 							{/* buttons  */}
 							<div className='flex items-center gap-4 ' >
 								{/* Live project  */}
-								<Link href={project.live}>
-									<TooltipProvider
-										delayDuration={100}
-									>
-										<Tooltip>
-											<TooltipTrigger
-												className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'
+								{
+									project.live !== "" && (
+										<Link href={project.live}>
+											<TooltipProvider
+												delayDuration={100}
 											>
-												<BsArrowUpRight className='text-white text-3xl group-hover:text-accent' />
-											</TooltipTrigger>
-											<TooltipContent>
-												<p>Live project</p>
-											</TooltipContent>
-										</Tooltip>
-									</TooltipProvider>
-								</Link>
+												<Tooltip>
+													<TooltipTrigger
+														className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'
+													>
+														<BsArrowUpRight className='text-white text-3xl group-hover:text-accent' />
+													</TooltipTrigger>
+													<TooltipContent>
+														<p>Live project</p>
+													</TooltipContent>
+												</Tooltip>
+											</TooltipProvider>
+										</Link>
+									)
+								}
 
 								{/* Github  */}
 
@@ -119,11 +123,7 @@ const Work = () => {
 										</TooltipProvider>
 									</Link>)
 								}
-
-
 							</div>
-
-
 						</div>
 
 					</div>
